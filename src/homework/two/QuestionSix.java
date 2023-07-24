@@ -1,4 +1,4 @@
-package homework.one;
+package homework.two;
 
 import java.util.Scanner;
 
@@ -9,6 +9,9 @@ public class QuestionSix {
 
     // Write a Java program to calculate the sum of two integers and return true if the sum is equal to a third integer.
     public static void answer() {
+        System.out.println("########## Question Six ##########");
+        System.out.println("Return true if the sum is equal to a third integer");
+
         Scanner input = new Scanner(System.in);
 
         System.out.print("Please enter the first number: ");

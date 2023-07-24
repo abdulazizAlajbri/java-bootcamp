@@ -1,4 +1,4 @@
-package homework.one;
+package homework.two;
 
 import java.util.Scanner;
 
@@ -10,6 +10,9 @@ public class QuestionOne {
     // Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers.
 
     public static void answer() {
+        System.out.println("########## Question One ##########");
+        System.out.println("Print the sum, multiply, subtract, divide and remainder of two numbers");
+
         Scanner input = new Scanner(System.in);
 
         System.out.print("Please enter the first number: ");

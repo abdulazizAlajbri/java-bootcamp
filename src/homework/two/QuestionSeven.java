@@ -1,4 +1,4 @@
-package homework.one;
+package homework.two;
 
 import java.util.Collections;
 import java.util.List;
@@ -13,6 +13,9 @@ public class QuestionSeven {
     // Take three numbers from the user and print the greatest number.
 
     public static void answer() {
+        System.out.println("########## Question Seven ##########");
+        System.out.println("Take three numbers from the user and print the greatest number");
+
         Scanner input = new Scanner(System.in);
 
         System.out.print("Please enter the first number: ");

@@ -1,4 +1,4 @@
-package homework.one;
+package homework.two;
 
 import java.util.Scanner;
 
@@ -8,6 +8,9 @@ public class QuestionThree {
 
     // Write a Java program that takes a string and a number from the user,then prints the character in the given index.
     public static void answer() {
+        System.out.println("########## Question Three ##########");
+        System.out.println("Print the character in the given index");
+
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter the string: ");
         String userInput = input.nextLine();
