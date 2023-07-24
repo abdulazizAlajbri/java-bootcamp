@@ -1,5 +1,10 @@
+.idea
 target/
 *.iml
-.idea/*
-output/*
-out/*
+*.xml
+
+.idea/**
+/.idea/**
+/idea/sonarlint/**
+output/**
+out/**
