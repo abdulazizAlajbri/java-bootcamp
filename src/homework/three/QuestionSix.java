@@ -12,10 +12,9 @@ public class QuestionSix {
         Scanner input = new Scanner(System.in);
         int evenSum = 0;
         int oddSum = 0;
-        System.out.println("Please enter the Count of numbers you want to find the sum of");
-        int count = input.nextInt();
-        for (int index = 1; index <= count; index++) {
-            System.out.println("Enter the number : ");
+        System.out.println("Please enter the 20 number you want to find the sum of");
+        for (int index = 0; index < 20; index++) {
+            System.out.println("Enter the number you want");
             int number = input.nextInt();
             if (number % 2 == 0) {
                 evenSum += number;
@@ -23,8 +22,8 @@ public class QuestionSix {
                 oddSum += number;
             }
         }
-        System.out.println("The sum of even numbers is : " + evenSum);
-        System.out.println("The sum of odd numbers is : " + oddSum);
+        System.out.println("The sum of the even numbers is " + evenSum);
+        System.out.println("The sum of the odd numbers is " + oddSum);
 
     }
 
