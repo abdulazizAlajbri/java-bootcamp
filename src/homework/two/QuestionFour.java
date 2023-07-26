@@ -8,7 +8,7 @@ public class QuestionFour {
 
     // Write a Java program to accept a number and check the number is even or not. Prints 1 if the number is even or 0 if the number is odd. (use if-statement)
     public static void answer() {
-        System.out.println("########## Question Four ##########");
+        System.out.println("########## Question homework.Four ##########");
         System.out.println("Check the number is even or not");
 
         Scanner input = new Scanner(System.in);
